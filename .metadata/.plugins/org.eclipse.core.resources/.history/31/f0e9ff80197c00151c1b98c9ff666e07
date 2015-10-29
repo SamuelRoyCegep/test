@@ -1,0 +1,15 @@
+package pool.product;
+
+public class MockPool extends Pool {
+
+	public MockPool() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public double calculatePrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

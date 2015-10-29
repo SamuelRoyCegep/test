@@ -1,0 +1,9 @@
+package piscine.produit;
+import java.awt.Color;
+
+public abstract class Pool 
+{
+	protected int price;
+	protected int size;
+	private static Color color;
+}

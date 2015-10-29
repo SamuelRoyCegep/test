@@ -1,0 +1,12 @@
+package pool.services;
+import piscine.produit.Pool;
+
+
+public class PiscinePompe extends Services {
+
+	public PiscinePompe(Pool p) 
+	{
+		super(p);
+		this.servicePrice = 600;
+	}
+}

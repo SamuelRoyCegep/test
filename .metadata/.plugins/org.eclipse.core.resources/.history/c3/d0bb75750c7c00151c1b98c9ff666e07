@@ -1,0 +1,9 @@
+
+public class BigPool extends ChezRoger {
+
+	public BigPool(String size, String color) {
+		super(size, color);
+		// TODO Auto-generated constructor stub
+	}
+
+}

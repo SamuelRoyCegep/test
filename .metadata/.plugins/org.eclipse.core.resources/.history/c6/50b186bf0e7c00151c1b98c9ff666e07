@@ -1,0 +1,9 @@
+
+public class ServiceRemplissage extends Services {
+
+	public ServiceRemplissage(Pool p) {
+		super(p);
+		// TODO Auto-generated constructor stub
+	}
+
+}

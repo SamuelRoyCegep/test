@@ -1,0 +1,22 @@
+
+public class ChezRoger 
+{
+	public ChezRoger()
+	{
+	}
+	
+	public void commandes(String format, String couleur)
+	{
+		int prix;
+		int size;
+		if(format == "P")
+		{
+			prix = 3000;
+			size = 15;
+		}else if(format == "G")
+		{
+			prix = 5000;
+			size = 28;
+		}
+	}
+}

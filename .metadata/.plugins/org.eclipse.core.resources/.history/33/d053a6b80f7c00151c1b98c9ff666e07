@@ -1,0 +1,11 @@
+import Pool;
+
+
+public class PiscineCartouche extends Services {
+
+	public PiscineCartouche(Pool p) {
+		super(p);
+		this.servicePrice = 800;
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.awt.Color;
+
+public class Pool 
+{
+	protected int price;
+	protected int size;
+	private static Color color;
+	public Pool(Color color)
+	{
+	}
+	public int calculatePrice()
+	{
+		
+	}
+}

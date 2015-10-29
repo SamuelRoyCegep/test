@@ -1,0 +1,10 @@
+
+public class PiscineThermopompe extends Services {
+
+	public PiscineThermopompe(Pool p) 
+	{
+		super(p);
+		// TODO Auto-generated constructor stub
+	}
+
+}

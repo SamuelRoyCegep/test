@@ -1,0 +1,6 @@
+public class SmallPool extends Pool
+{
+	public SmallPool(Color color)
+	{
+	}
+}

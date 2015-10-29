@@ -1,0 +1,13 @@
+package pool.services;
+import Pool;
+
+
+public class ServiceInstallation extends Services 
+{
+	public ServiceInstallation(Pool p) 
+	{
+		super(p);
+		this.servicePrice = 1500;
+	}
+
+}

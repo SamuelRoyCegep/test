@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.awt.Paint"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="pool.product.SmallPool"/>
+<fullyQualifiedTypeName name="pool.product.Pool"/>
+<fullyQualifiedTypeName name="pool.services.ServiceInstallation"/>
+<fullyQualifiedTypeName name="java.awt.Color"/>
+<fullyQualifiedTypeName name="pool.services.PiscinePompe"/>
+<fullyQualifiedTypeName name="pool.services.PiscineCartouche"/>
+<fullyQualifiedTypeName name="pool.services.PiscineThermopompe"/>
+</qualifiedTypeNameHistroy>

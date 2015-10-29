@@ -1,0 +1,13 @@
+import java.awt.Color;
+
+public class SmallPool extends Pool
+{
+	public SmallPool(Color color)
+	{
+		super(color);
+	}
+	public int calculatePrice()
+	{
+		return 3000;
+	}
+}

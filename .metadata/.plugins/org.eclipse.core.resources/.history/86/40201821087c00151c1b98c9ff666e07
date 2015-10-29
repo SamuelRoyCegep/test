@@ -1,0 +1,46 @@
+
+public class ChezRoger 
+{
+	private int price;
+	private int size;
+	private String color;
+	public ChezRoger(String size, String color)
+	{
+		if(size == "P")
+		{
+			this.size = 15;
+		}else if(size == "G")
+		{
+			this.size = 28;
+		}else
+		{
+			throw new RunTimeException;
+		}
+		
+		if(color == "bleu" || color == "noir" || color == "sable" || color == "blanc")
+		{
+			this.color = color;
+		}else
+		{
+			throw new RunTimeException();
+		}
+		this.setPrice();
+	}
+	
+	private void setPrice() 
+	{
+		if(this.size == "P")
+		{
+			this.price = 3000;
+		}else if(this.size = "G")
+		{
+			
+		}
+	}
+
+	public void commandes()
+	{
+	
+	}
+	System.out.print
+}

@@ -1,0 +1,9 @@
+package pool.product;
+
+public class AboveGroundPool extends Pool {
+
+	public AboveGroundPool() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

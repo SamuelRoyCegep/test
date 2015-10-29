@@ -1,0 +1,27 @@
+package pool.tests;
+
+import static org.junit.Assert.*;
+
+import java.awt.Color;
+
+import org.junit.Test;
+
+import pool.product.*;
+import pool.services.*;
+
+public class testDecorators {
+
+	@Test
+	public void test() 
+	{
+		//Arrange
+		Pool pool = new SmallPool(Color.BLUE);
+		//Act
+		Services service1 = new ServiceInstallation(pool);
+		Services service2 = new PiscineThermopompe(service1);
+		Services service3 = new PiscineFiltre(service2);
+		//Assert
+		assertEquals(expected, service3.calculatePrice());
+	}
+
+}

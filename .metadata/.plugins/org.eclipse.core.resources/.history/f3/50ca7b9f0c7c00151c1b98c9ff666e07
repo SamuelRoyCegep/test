@@ -1,0 +1,11 @@
+import java.awt.Color;
+
+
+public class BigPool extends Pool 
+{
+	public BigPool(Color color) 
+	{
+		super(color);
+	}
+
+}

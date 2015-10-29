@@ -1,0 +1,8 @@
+
+public class Piscine extends ChezRoger 
+{
+	public Piscine(String size,String color)
+	{
+		
+	}
+}

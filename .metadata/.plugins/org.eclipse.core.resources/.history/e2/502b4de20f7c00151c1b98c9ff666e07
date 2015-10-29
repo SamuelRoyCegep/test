@@ -1,0 +1,12 @@
+package piscine.produit;
+
+public class Pool 
+{
+	protected int price;
+	protected int size;
+	private static Color color;
+	public int calculatePrice()
+	{
+		return price;
+	}
+}

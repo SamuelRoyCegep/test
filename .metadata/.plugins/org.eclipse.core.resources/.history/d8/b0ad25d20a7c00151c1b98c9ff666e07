@@ -1,0 +1,10 @@
+
+public class SmallPool extends ChezRoger 
+{
+
+	public SmallPool(String color) 
+	{
+		super(color);
+	}
+
+}

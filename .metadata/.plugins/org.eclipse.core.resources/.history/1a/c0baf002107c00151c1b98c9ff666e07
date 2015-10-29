@@ -1,0 +1,13 @@
+package piscine.produit;
+
+
+public class BigPool extends Pool 
+{
+	public static final int basePrice = 5000;
+	private static final int size = 28;
+	public int calculatePrice()
+	{
+		return basePrice;
+	}
+
+}

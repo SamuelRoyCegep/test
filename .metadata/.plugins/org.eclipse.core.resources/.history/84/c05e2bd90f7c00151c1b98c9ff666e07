@@ -1,0 +1,22 @@
+package pool.services;
+import java.awt.Color;
+
+import piscine.produit.Pool;
+
+
+public class Services 
+{
+	protected Pool pool;
+	protected int servicePrice;
+
+	public Services(Pool p)
+	{
+		this.pool = p;
+	}
+	public int calculatePrice()
+	{
+		int price = pool.calculatePrice();
+		return price + servicePrice;
+	}
+
+}

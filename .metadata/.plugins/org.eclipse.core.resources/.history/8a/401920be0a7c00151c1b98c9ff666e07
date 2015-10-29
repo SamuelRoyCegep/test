@@ -1,0 +1,11 @@
+
+public class SmallPool extends ChezRoger 
+{
+
+	public SmallPool(String color) 
+	{
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+}

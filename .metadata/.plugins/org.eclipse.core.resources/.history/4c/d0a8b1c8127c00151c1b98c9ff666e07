@@ -1,0 +1,12 @@
+package pool.services;
+import piscine.produit.Pool;
+
+
+public class ServiceRemplissage extends Services {
+
+	public ServiceRemplissage(Pool p) 
+	{
+		super(p);
+		this.servicePrice = 300;
+	}
+}

@@ -1,0 +1,11 @@
+import java.awt.Color;
+
+public class MediumPool extends Pool 
+{
+	public static final int basePrice = 4000;
+	private static final int size = 21;
+	public int calculatePrice()
+	{
+		return basePrice;
+	}
+}

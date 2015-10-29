@@ -1,0 +1,8 @@
+public class MediumPool extends Pool 
+{
+	public MediumPool(Color color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+}

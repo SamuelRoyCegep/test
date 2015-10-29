@@ -1,0 +1,17 @@
+import java.awt.Color;
+
+
+public class BigPool extends Pool 
+{
+	public static final int price = 3000;
+	private static final int size = 28;
+	public BigPool(Color color) 
+	{
+		super(color);
+	}
+	public int calculatePrice()
+	{
+		return 5000;
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class SmallPool extends ChezRoger 
+{
+	private int price;
+	private int size;
+	public SmallPool(String color) 
+	{
+		super(color);
+	}
+
+}

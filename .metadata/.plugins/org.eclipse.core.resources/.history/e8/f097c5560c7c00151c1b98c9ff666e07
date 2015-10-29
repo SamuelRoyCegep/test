@@ -1,0 +1,8 @@
+public class MediumPool extends Pool 
+{
+	public MediumPool(String size) {
+		super(size);
+		// TODO Auto-generated constructor stub
+	}
+
+}

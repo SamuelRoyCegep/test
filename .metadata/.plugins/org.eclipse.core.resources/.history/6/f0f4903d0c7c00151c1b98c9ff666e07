@@ -1,0 +1,13 @@
+
+public class SmallPool extends ChezRoger implements Paint, Serializable
+{
+	private 
+	public static final int 
+	public SmallPool(String color) 
+	{
+		super(color);
+		this.price = 3000;
+		this.size = 15;
+	}
+
+}

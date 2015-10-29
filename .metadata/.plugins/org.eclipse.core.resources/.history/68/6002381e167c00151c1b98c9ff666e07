@@ -1,0 +1,13 @@
+package pool.product;
+
+import java.awt.Color;
+
+public abstract class AboveGroundPool extends Pool 
+{
+
+	public AboveGroundPool(Color color) 
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

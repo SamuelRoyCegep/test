@@ -1,0 +1,29 @@
+package pool.tests;
+
+import static org.junit.Assert.*;
+
+import java.awt.Color;
+import org.junit.Test;
+
+import pool.product.*;
+import pool.services.*;
+
+public class testDecorators 
+{
+	private static final double COMPARAISON = 0.0;
+	private static final double PRICE_INSTALLATION = 1500.00;
+	private static final int 
+	@Test
+	public void test() 
+	{
+		//Arrange
+		Pool pool = new MockPool();
+		//Act
+		Services service1 = new ServiceInstallation(pool);
+		Services service2 = new PiscineThermopompe(service1);
+		Services service3 = new PiscineFiltre(service2);
+		//Assert
+		assertEquals(1500.00+1000.00+300.00, service3.calculatePrice(),COMPARAISON);
+	}
+
+}

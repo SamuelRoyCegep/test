@@ -1,0 +1,45 @@
+
+public class ChezRoger 
+{
+	protected int price;
+	protected int size;
+	private String color = null;
+	public ChezRoger(String size)
+	{
+	}
+	
+	private void setColor(String color) 
+	{
+		PoolColor color = new PoolColor(color);
+	}
+
+	private void setSize(String size) 
+	{
+		if(size == "P")
+		{
+			this.size = 15;
+		}else if(size == "G")
+		{
+			this.size = 28;
+		}else
+		{
+			throw new RunTimeException();
+		}
+	}
+
+	private void setPrice() 
+	{
+		if(this.size == 15)
+		{
+			this.price = 3000;
+		}else if(this.size == 28)
+		{
+			this.price = 5000;
+		}
+	}
+
+	public int commandes()
+	{
+		return price;
+	}
+}

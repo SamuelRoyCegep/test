@@ -1,0 +1,13 @@
+import java.awt.Color;
+
+
+public class Services extends Pool 
+{
+	protected Pool pool;
+
+	public Services(Color color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+}

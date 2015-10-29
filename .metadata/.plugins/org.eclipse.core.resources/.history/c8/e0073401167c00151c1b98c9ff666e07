@@ -1,0 +1,11 @@
+package pool.product;
+
+public abstract class AboveGroundPool extends Pool 
+{
+
+	public AboveGroundPool(Color color) 
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

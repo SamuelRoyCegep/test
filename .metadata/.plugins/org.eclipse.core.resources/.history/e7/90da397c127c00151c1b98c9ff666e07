@@ -1,0 +1,21 @@
+package pool.services;
+
+import piscine.produit.Pool;
+
+
+public class Services
+{
+	protected Pool pool;
+	protected static int servicePrice = 0;
+	protected static int total;
+
+	public Services(Pool p)
+	{
+		this.pool = p;
+	}
+	public int calculatePrice()
+	{
+		return total;
+	}
+
+}

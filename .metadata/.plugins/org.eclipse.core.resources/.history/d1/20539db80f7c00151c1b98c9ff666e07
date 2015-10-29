@@ -1,0 +1,19 @@
+import java.awt.Color;
+
+
+public class Services 
+{
+	protected Pool pool;
+	protected int servicePrice;
+
+	public Services(Pool p)
+	{
+		this.pool = p;
+	}
+	public int calculatePrice()
+	{
+		int price = pool.calculatePrice();
+		return price + servicePrice;
+	}
+
+}

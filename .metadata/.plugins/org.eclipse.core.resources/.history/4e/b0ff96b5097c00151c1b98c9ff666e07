@@ -1,0 +1,17 @@
+
+public enum PoolColor 
+{
+	Bleu("piscine bleu"),
+	Noir("pidcine noir"),
+	Sable("piscine Sable"),
+	Blanc("piscine Blanche");
+	
+	private String color;
+	
+	PoolColor(String color)
+	{
+		this.color = color;
+	}
+	
+	public 
+}
